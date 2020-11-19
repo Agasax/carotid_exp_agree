@@ -1,7 +1,10 @@
-name: "Reliability of point-of-care carotid artery examinations by experts using hand-held ultrasound devices in patients with ischemic stroke or transitory ischemic attack"
+name: Reliability of point-of-care carotid artery examinations by experts using hand-held
+  ultrasound devices in patients with ischemic stroke or transitory ischemic attack
 output_dir: ../docs
 navbar:
-  title: "Reliability of point-of-care carotid artery examinations by experts using hand-held ultrasound devices in patients with ischemic stroke or transitory ischemic attack"
+  title: Reliability of point-of-care carotid artery examinations by experts using
+    hand-held ultrasound devices in patients with ischemic stroke or transitory ischemic
+    attack
   left:
   - text: Home
     href: index.html
@@ -9,6 +12,10 @@ navbar:
     href: about.html
   - text: License
     href: license.html
+  right:
+  - icon: fa-github
+    text: Source code
+    href: https://github.com/Agasax/carotid_exp_agree
 output:
   workflowr::wflow_html:
     toc: yes
